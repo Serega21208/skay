@@ -46,7 +46,6 @@ label{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   /* gap: 80px; */
 }
 
 .logo-head{
@@ -223,7 +222,7 @@ label{
    transition-duration: 0.4s;
 }
 .equipment1__item:hover{
-   box-shadow: 2px 2px 20px rgb(99, 98, 98);
+   box-shadow: 2px 2px 20px rgb(219, 200, 115);
 }
 .equipment1__item img{
    width: 620px;
@@ -254,7 +253,7 @@ label{
 /* winter */
 .winter{
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 120px;
 }
 .grid{
    display: flex;
@@ -268,7 +267,7 @@ label{
    transition-duration: 0.4s;
 }
 .grid__item:hover{
-   box-shadow: 2px 2px 20px rgb(99, 98, 98);
+   box-shadow: 2px 2px 20px rgb(154, 188, 224);
 }
 .grid__link{
    width: 100%;
@@ -279,6 +278,71 @@ label{
 .child5{
    max-width: 630px;
 }
+/* ----------------------- */
+/* services */
+.services{
+   background-color: rgb(235, 235, 235);
+   background-image: url(../IMAGES/vector-icon/bg-main-line.svg);
+   padding: 120px 0;
+}
+
+.level1{
+   display: flex;
+   justify-content: space-between;
+}
+.level1__title > h3{
+   font-family: "Onest";
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 102%;
+   text-align: left
+}
+.level1__title > p{
+   font-family: "Golos Text";
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 120%;
+   color: rgb(69, 79, 91);
+   margin-top: 15px;
+}
+
+.service{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 30px;
+   max-width: 793px;
+}
+.service__item{
+   display: block;
+   max-width: 382px;
+   border-radius: 16px;
+   transition-duration: 0.4s;
+}
+.service__item:hover{
+   box-shadow: 2px 2px 20px rgb(99, 98, 98);
+}
+.service__text{
+   background-color: rgb(255, 255, 255);
+   border-radius: 16px;
+   padding: 18px;
+   font-family: "Golos Text";
+   text-align: left;
+}
+.service__text > h4{
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   color: rgb(22, 28, 36);
+}
+.service__text > p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+   color: rgb(69, 79, 91);
+}
+/* ======================= */
+
 
 /* inventory rental */
 .rocatp{
